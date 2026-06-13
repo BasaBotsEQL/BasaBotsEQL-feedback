@@ -1,0 +1,38 @@
+name: 🐞 Bug report
+description: Something broken, crashed, or doing the wrong thing.
+title: "[bug] "
+labels: ["bug"]
+body:
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: One or two sentences is fine.
+      placeholder: e.g. "When I open the Quest tab, the app freezes for 5 seconds."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: How to reproduce
+      description: Step-by-step if you can — even rough is helpful.
+      placeholder: |
+        1. Open the app
+        2. Click the Quest tab
+        3. App freezes
+  - type: input
+    id: version
+    attributes:
+      label: App version
+      description: Shown in the top-right of the app (e.g. v0.12.16).
+      placeholder: v0.12.x
+  - type: input
+    id: zone
+    attributes:
+      label: Zone / activity (if relevant)
+      placeholder: e.g. Plane of Sky, Lower Guk, etc.
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Screenshots, log snippets, what you tried — anything helps.

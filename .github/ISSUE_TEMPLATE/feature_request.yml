@@ -1,0 +1,22 @@
+name: ✨ Feature request
+description: Something the app should do that it doesn't yet.
+title: "[feature] "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would you like?
+      placeholder: e.g. "Show a recap of the previous fight on the DPS meter after a kill."
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why?
+      description: What's the problem it solves or use case it covers?
+  - type: textarea
+    id: extra
+    attributes:
+      label: Anything else?
+      description: Mockups, examples from other tools, etc.

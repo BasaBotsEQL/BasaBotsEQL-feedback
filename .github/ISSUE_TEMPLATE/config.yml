@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 💬 BasaBots Discord
+    url: https://discord.gg/basabots
+    about: Fastest way to get a reply. Bug reports posted in the Discord forum automatically appear here.
+  - name: 📧 Sales / billing
+    url: mailto:sales@basabots.com
+    about: For purchase, refund, or license-key issues only.
